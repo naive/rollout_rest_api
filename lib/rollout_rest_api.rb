@@ -1,4 +1,5 @@
 require "sinatra"
+require 'yajl'
 
 class RolloutRestAPI < Sinatra::Base
   class FakeUser < Struct.new(:id); end
